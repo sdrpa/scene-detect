@@ -1,6 +1,8 @@
 Looks at the difference between each pair of adjacent (or n-th) frames, extracting a frame as an image when the difference exceeds a threshold value
 (using OpenCV FLANN based matcher).
 
+It's usefull if you want to quickly convert a video tutorial eg. from Udemy to static slides, to go over the material a second time without re-watching the video.
+
 Docker:
 ```
 docker pull adnrv/opencv
